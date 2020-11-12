@@ -1,0 +1,151 @@
+{
+    "header":{
+        "en": {
+            "links": [
+                {"name":"Home", "url": "/", "icon": "home"},
+                {"name":"About", "url": "/about", "icon": "user"},
+                {"name":"Services", "url": "/services", "icon": "crown"},
+                {"name":"Experiences", "url": "/experiences", "icon": "graduation-cap"},
+                {"name":"Works", "url": "/works", "icon": "code"},
+                {"name":"Contact", "url": "/contact", "icon": "phone-alt"}
+            ]
+        },
+        "tr": {
+            "links": [
+                {"name":"Başlangıç", "url": "/", "icon": "home"},
+                {"name":"Hakkımda", "url": "/about", "icon": "user"},
+                {"name":"Hizmetler", "url": "/services", "icon": "crown"},
+                {"name":"Tecrübeler", "url": "/experiences", "icon": "graduation-cap"},
+                {"name":"İşler", "url": "/works", "icon": "code"},
+                {"name":"İletişim", "url": "/contact", "icon": "phone-alt"}
+            ]
+        },
+        "social":[
+            {"link": "https://www.mustafacagri.com/", "icon": "wordpress"},
+            {"link": "https://tr.linkedin.com/in/mustafacagri", "icon": "linkedin"},
+            {"link": "https://github.com/mustafacagri", "icon": "github"},
+            {"link": "https://www.npmjs.com/~mustafacagri", "icon": "npm"},
+            {"link": "https://medium.com/@mustafacagri", "icon": "medium"},
+            {"link": "https://instagram.com/mustafacagri", "icon": "instagram"},
+            {"link": "https://twitter.com/mustafacagri", "icon": "twitter"}
+        ]
+    },
+    "home":{
+        "en": {
+            "name":"Mustafa Çağrı Güven",
+            "subtitle": "Welcome to my <s>resume</s> history.",
+            "iAmA": "I am a",
+            "titles": ["Computer Engineer", "Frontend Developer", "Vue.js Developer", "ASP.Net Developer", "Backend Developer", "Node.js Developer", "Senior Full Stack Developer", "C# Developer"],
+            "hireMe": "Hire me"
+        },
+        "tr": {
+            "name":"Mustafa Çağrı Güven",
+            "subtitle": "<s>Öz geçmişime</s> Hikayeme hoşgeldiniz.",
+            "iAmA": "Ben bir",
+            "titles": ["Bilgisayar Mühendisiyim", "Frontend Geliştiricisiyim", "Vue.js Geliştiricisiyim", "C# Geliştiricisiyim", "ASP.Net Geliştiricisiyim", "Backend Geliştiricisiyim", "Node.js Geliştiricisiyim", "Kıdemli Full Stack Geliştiriciyim"],
+            "hireMe": "Bana ulaş"
+        }
+    },
+    "about":{
+        "en": {
+            "title": "About Me",
+            "texts": ["Hi, I'm Mustafa Çağrı. I graduated from Sabanci University '11 (Turkey) with computer science engineering. I have been coding since before college. Actually, since from Classic ASP age!", "I like to discover new technologies and quickly adapt to them. Now, I usually engage in front-end technologies. While Vue.js is my favorite, pure javascript and jQuery can save lives most of the time.", "I usually have choosing ASP.Net Core or Node.js for backend. However, future is in Node.js or Pyhthon, as I know it!"],
+            "infobox": ["Projects Completed", "Cup of Coffee", "Satisfied Customer", "Business Year"]
+        },
+        "tr": {
+            "title": "Hakkımda",
+            "texts": ["Merhaba ben Mustafa Çağrı Güven. Sabancı Üniversitesi '11 Bilgisayar Bilimleri Mühendisliğinden mezun oldum. Çok uzun yıllardır kod yazıyorum, öyle ki Classic ASP yıllarından beri...", "Yeni teknolojileri keşfetmeyi ve bunlara hızla adapte olmayı seviyorum. Şu sırlarda, genellikle frontend teknolojilerle uğraşıyorum. Her ne kadar Vue.js favorim olsa da, pure Javascript ve jQuery de çoğu zaman hayat kurtarabilir.", "Backend geliştirmeler için genellikle ASP.NET Core ve Node.js kullanmaktayım. Bunun yanı sıra geleceğin kesinlikle Node.js ve Pyhthon'da olduğunun da farkındayım."],
+            "infobox": ["Tamamlanan Proje", "İçilen Kahve", "Mutlu Müşteri", "İş Hayatındaki Süre"]
+        }
+    },
+    "services":{
+        "en": {
+            "title": "Services",
+            "boxes": [
+                {"icon": "code", "title":"Frontend Development", "content": "Javascript, jQuery, Vue.js, PSD to CSS / HTML..."},
+                {"icon": "code", "title":"Backend Development", "content": "ASP.Net MVC Core, RESTful APIs, Node.js, Classic ASP, PHP"},
+                {"icon": "code", "title":"Development", "content": "Do you have a need about software development? Let's talk!"},
+                {"icon": "pencil-ruler", "title":"UI / UX Design", "content": "I can offer creative solutions for web interface design."},
+                {"icon": "user-tie", "title":"Consulting", "content": "Do you need unique ideas about internet technologies? Growth Hacking!"},
+                {"icon": "rocket", "title":"SEO", "content": "How can users find a website that is not indexed in search engines?"}
+            ]
+        },
+        "tr": {
+            "title": "Hizmetler",
+            "boxes": [
+                {"icon": "code", "title":"Frontend Development", "content": "Javascript, jQuery, Vue.js, PSD to CSS / HTML..."},
+                {"icon": "code", "title":"Backend Development", "content": "ASP.Net MVC Core, RESTful APIs, Node.js, Classic ASP, PHP"},
+                {"icon": "code", "title":"Yazılım Geliştirme", "content": "Yazılım geliştirme konusunda bir ihtiyacınız mı var? Haydi konuşalım!"},
+                {"icon": "pencil-ruler", "title":"UI / UX Design", "content": "Web arayüz tasarımı için kreatif ve modern çözümler sunabilirim. Tasarımları koda dökebilirim."},
+                {"icon": "user-tie", "title":"Danışmanlık", "content": "İnternet teknolojileri hakkında markanızı daha ileriye taşıyabilecek fikirlere ihtiyacınız var mı?"},
+                {"icon": "rocket", "title":"SEO", "content": "Arama motorlarında indexlenmeyen bir web sitesini kullanıcılar nasıl bulabilir ki?"}
+            ]
+        }
+    },
+    "experiences":{
+        "en": {
+            "title": "Experiences",
+            "tabs": {"work": "Work", "education": "Education"},
+            "work": [
+                {"id": 8, "title":"Senior Frontend Developer", "time":"2019 - 2020 (Ministry of Interior)", "content": "I mainly developed frontend projects with jQuery and Vue.js, and backend projects with ASP.Net MVC Core and ASP.Net Core API. In addition to these, I also worked extensively on Web UI / UX designs."},
+                {"id": 7, "title":"Full Stack Web Developer", "time":"2015 - 2019 (Otelistan - Online Hotel Booking System)", "content": "Otelistan was a brand that produced sites containing online booking module for hotels. It also provided SEO and digital marketing services to hotels. In addition to these, there were regional subdomains in otelistan.com, which works in integration with customer hotels. I worked alone in all software development and SEO works of many sites (more than 10 subdomains) such as akcayotelleri.otelistan.com, kazdaglarotelleri.otelistan.com."},
+                {"id": 6, "title":"Full Stack Web Developer", "time":"2013 - 2016 (Ticarim / Founding Partner)", "content": "Ready-made e-commerce web software packages were sold under the brand Ticarim within Creamive. I worked as a full stack web developer on Ticarim's website and all e-commerce sites Creamive prepared."},
+                {"id": 5, "title":"Full Stack Web Developer", "time":"2011 - 2019 (CREAMIVE Creative Web Agency / Founding Partner)", "content": "Before graduating from university, I took part in many projects as a freelancer. By incorporating CREAMIVE in 2011, I continued my work as a corporate. I took part in all projects of the company as a full stack web developer, SEO expert, digital strategist."},
+                {"id": 4, "title":"Full Stack Web Developer", "time":"2008 - 2010 (Yemek112 & YurdaYemek)", "content": "While studying at Sabancı University, I took part in 2 different online food ordering start-up as a founding partner and a full stack web developer."}
+            ],
+            "education": [
+                {"id": 3, "title":"İstanbul University", "time":"2016 (Master of Business Administration / Graduate Degree)", "content": "After a year of MBA education, I left university."},
+                {"id": 2, "title":"Boğaziçi University", "time":"2011 (Computer Engineering)", "content": "I studied at Boğaziçi University for a semester before I graduated from Sabancı University."},
+                {"id": 1, "title":"Sabancı University", "time":"2006 - 2011 (Computer Science & Engineering)", "content": "Since I was a web developer before college, I focused on web development during my university years too. During the college years, I founded some internet start-ups such as Sulular.net, SuSozluk.com, Yemek112 and Yurdayemek. Besides the computer science education, I also took visual communication design lessons. By means of this, I had the chance to improve myself academically in UI / UX subjects."}
+            ]
+        },
+        "tr": {
+            "title": "Tecrübelerim",
+            "tabs": {"work": "İş Hayatı", "education": "Eğitim"},
+            "work": [
+                {"id": 8, "title":"Kıdemli Frontend Geliştirici", "time":"2019 - 2020 (İçişleri Bakanlığı)", "content": "Ağırlıklı olarak jQuery ve Vue.js ile frontend projeleri, ASP.Net MVC Core ve ASP.Net Core API ile backend projeleri geliştirdim. Bunlara ek olarak, Web UI / UX tasarımları üzerinde de yoğun bir şekilde çalıştım."},
+                {"id": 7, "title":"Full Stack Web Geliştirici", "time":"2015 - 2019 (Otelistan - Online Hotel Booking System)", "content": "Otelistan, oteller için online rezervasyon modülü içeren siteler üreten bir markaydı. Otellere SEO ve dijital pazarlama hizmetleri de verdi. Bunlara ek olarak otelistan.com'da müşteri otelleriyle entegre çalışan bölgesel alt alanlar vardı. Akçayotelleri.otelistan.com, kazdaglarotelleri.otelistan.com gibi birçok sitenin (10'dan fazla alt alan adı) tüm yazılım geliştirme ve SEO çalışmalarında tek başıma çalıştım."},
+                {"id": 6, "title":"Full Stack Web Geliştirici", "time":"2013 - 2016 (Ticarim / Kurucu Ortak)", "content": "Creamive bünyesinde Ticarim markası altında hazır e-ticaret web yazılım paketleri satılıyordu. Ticarim'in web sitesinde ve Creamive'in hazırladığı tüm e-ticaret sitelerinde full stack web geliştirici olarak çalıştım."},
+                {"id": 5, "title":"Full Stack Web Geliştirici", "time":"2011 - 2019 (CREAMIVE Kreatif Web Ajansı / Kurucu Ortak)", "content": "Üniversiteden mezun olmadan önce birçok projede freelancer olarak yer aldım. 2011 yılında CREAMIVE'i kurarak, kurumsal olarak çalışmalarıma devam ettim. Firmanın tüm projelerinde full stack web geliştirici, SEO uzmanı, dijital stratejist olarak yer aldım."},
+                {"id": 4, "title":"Full Stack Web Geliştirici", "time":"2008 - 2010 (Yemek112 & YurdaYemek)", "content": "Sabancı Üniversitesi'nde okurken 2 farklı online yemek siparişi girişiminde kurucu ortak ve full stack web geliştirici olarak yer aldım."}
+            ],
+            "education": [
+                {"id": 3, "title":"İstanbul Üniversitesi", "time":"2016 (İşletme Yüksek Lisansı / Yüksek Lisans)", "content": "Bir yıllık MBA eğitiminden sonra üniversiteden ayrıldım."},
+                {"id": 2, "title":"Boğaziçi Üniversitesi", "time":"2011 (Bilgisayar Mühendisliği)", "content": "Sabancı Üniversitesi'nden mezun olmadan önce Boğaziçi Üniversitesi'nde de bir dönem okudum."},
+                {"id": 1, "title":"Sabancı Üniversitesi", "time":"2006 - 2011 (Bilgisayar Bilimi ve Mühendisliği)", "content": "Üniversiteden önce web geliştiricisi olduğum için üniversite yıllarımda da web geliştirmeye odaklandım. Üniversite yıllarında Sulular.net, SuSozluk.com, Yemek112 ve Yurdayemek gibi bazı internet girişimleri kurdum. Bilgisayar bilimleri eğitiminin yanı sıra görsel iletişim tasarımı dersleri de aldım. Bu sayede UI / UX konularında akademik olarak da kendimi geliştirme şansım oldu."}
+            ]
+        }
+    },
+    "works":{
+        "en": {
+            "title": "Works",
+            "titles": ["There will be my recent works here, ASAP.","CREAMIVE (creamive.com) was the digital web agency which I was founder.","And also, my github profile might give you some ideas about my style."]
+        },
+        "tr": {
+            "title": "İşlerim",
+            "titles": ["En yakın zamanda yaptığım güncel işler de burada yer alacak.","CREAMIVE (creamive.com) kurduğum ve kıdemli full stack geliştirici olarak çalıştığım ajansımdı.","Ayrıca, Github profilime bakarak kod yazım tarzım hakkında da bilgi sahibi olabilirsiniz."]
+        }
+    },
+    "contact":{
+        "en": {
+            "title": "Get In Touch",
+            "subTitle": "Let's talk about everything!",
+            "text": "Don't like forms? Send me an <a href='mailto:me@mustafacagri.com'>email</a>.",
+            "success": "Your message was sent succesfully! I will response it soon...",
+            "loading": "Please wait while message is sending...",
+            "waitMinutes": "You should wait [reSendTime] minutes to send an email again.",
+            "pleaseControl": "Plase check the all form inputs.",
+            "formTexts": {"name":"Name","email":"Email","subject":"Subject","message":"Message", "send": "Send Message"}
+        },
+        "tr": {
+            "title": "İletişime Geçin",
+            "subTitle": "Haydi bir şeyler konuşalım!",
+            "text": "Formları sevmiyor musunuz?<br/ >Bana <a href='mailto:me@mustafacagri.com'>e-posta</a> da gönderebilirsiniz.",
+            "success": "Mesajınız başarıyla gönderildi! En kısa sürede geri dönüş yapacağım...",
+            "loading": "Lütfen mesaj gönderilirken bekleyin...",
+            "waitMinutes": "Tekrar bir e-posta göndermek için [reSendTime] dakika beklemelisiniz.",
+            "pleaseControl": "Lütfen form alanındaki tüm alanları kontrol edin.",
+            "formTexts": {"name":"İsim","email":"E-Posta","subject":"Konu","message":"Mesajınız", "send": "Gönder"}
+        }
+    }
+}

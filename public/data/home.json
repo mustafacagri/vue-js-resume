@@ -1,0 +1,16 @@
+{
+	"en": {
+		"name":"Mustafa Çağrı Güven",
+		"subtitle": "Welcome to my <s>resume</s> history.",
+		"iAmA": "I am a",
+		"titles": ["Computer Engineer", "Frontend Developer", "Vue.js Developer", "ASP.Net Developer", "Backend Developer", "Node.js Developer", "Senior Full Stack Developer", "C# Developer"],
+		"hireMe": "Hire me"
+	},
+	"tr": {
+		"name":"Mustafa Çağrı Güven",
+		"subtitle": "<s>Öz geçmişime</s> Hikayeme hoşgeldiniz.",
+		"iAmA": "Ben bir",
+		"titles": ["Bilgisayar Mühendisiyim", "Frontend Geliştiricisiyim", "Vue.js Geliştiricisiyim", "C# Geliştiricisiyim", "ASP.Net Geliştiricisiyim", "Backend Geliştiricisiyim", "Node.js Geliştiricisiyim", "Kıdemli Full Stack Geliştiriciyim"],
+		"hireMe": "Bana ulaş"
+	}
+}

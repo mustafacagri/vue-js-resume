@@ -1,0 +1,30 @@
+{
+	"en": {
+		"links": [
+			{"name":"Home", "url": "/", "icon": "home"},
+			{"name":"About", "url": "/about", "icon": "user"},
+			{"name":"Services", "url": "/services", "icon": "crown"},
+			{"name":"Experiences", "url": "/experiences", "icon": "graduation-cap"},
+			{"name":"Works", "url": "/works", "icon": "code"},
+			{"name":"Contact", "url": "/contact", "icon": "phone-alt"}
+		]
+	},
+	"tr": {
+		"links": [
+			{"name":"Başlangıç", "url": "/", "icon": "home"},
+			{"name":"Hakkımda", "url": "/about", "icon": "user"},
+			{"name":"Hizmetler", "url": "/services", "icon": "crown"},
+			{"name":"Tecrübeler", "url": "/experiences", "icon": "graduation-cap"},
+			{"name":"İşler", "url": "/works", "icon": "code"},
+			{"name":"İletişim", "url": "/contact", "icon": "phone-alt"}
+		]
+	},
+	"social":[
+		{"link": "https://www.mustafacagri.com/", "icon": "wordpress"},
+		{"link": "https://tr.linkedin.com/in/mustafacagri", "icon": "linkedin"},
+		{"link": "https://github.com/mustafacagri", "icon": "github"},
+		{"link": "https://www.npmjs.com/~mustafacagri", "icon": "npm"},
+		{"link": "https://medium.com/@mustafacagri", "icon": "medium"},
+		{"link": "https://twitter.com/mustafacagri", "icon": "twitter"}
+	]
+}

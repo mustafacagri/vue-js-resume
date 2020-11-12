@@ -1,0 +1,226 @@
+:root {
+    --red: #f03f36;
+    --mainColor: #353353;
+    --mainColor2: #e3403a;
+    --mainColor3: #FFD15C;
+}
+a{-webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+.container-fluid {max-width: 1600px;}
+body {background-color:#F6F6F6; font-family: 'Open Sans', sans-serif; padding:50px 0;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Poppins', sans-serif; font-weight:bold;}
+
+
+/* HEADER */
+#Header {background-color:var(--mainColor); height:660px; padding:20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; position:fixed;}
+#Header img {text-align:center; width:80px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+#Header h2 {font-size:27px; color:#fff; margin:20px 0 10px; text-align:center;}
+#Header h2:after {color:var(--mainColor3); content:"."; margin-left:5px;}
+#Header p {text-align:center; color:#fff; font-size:0.8rem;}
+#Header .menu {margin:15px 0 0 -20px;}
+    #Header .menu:before {display:block; content: "\00a0 "; width:50%; left:25%; right:25%; position:absolute; height:0px; background-color:#fff; opacity: 0.1;}
+    #Header .menu a {display:block; margin-bottom:10px; color:#fff; font-size:1rem;}
+        #Header .menu a:first-child {padding-top:40px;}
+        #Header .menu a:hover {text-decoration: none;}
+        #Header .menu a:not(.router-link-exact-active):hover {text-decoration: none; padding-left:40px;}
+            #Header .menu a.router-link-exact-active:hover:before {display:inline-block; background-color:var(--mainColor2); width:4px; height:100%; margin-right:36px; content: "\00a0 "; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+        #Header .menu a:not(.router-link-exact-active) {padding-left:30px;}
+        #Header .menu a.router-link-exact-active { -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+            #Header .menu a.router-link-exact-active:before {display:inline-block; background-color:var(--mainColor2); width:4px; height:100%; margin-right:26px; content: "\00a0 ";  -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+        #Header a svg {width:50px;}
+
+#Header .social {margin-top:70px; padding-left:20px;}
+    #Header .social a {width:30px; height:30px; line-height:30px; text-align:center; display:inline-block; background-color:var(--mainColor2); color:#fff; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+    #Header .social a:not(:first-child) {margin-left:10px;}
+        #Header .social a:hover {color:var(--mainColor2); background-color:#fff;}
+    #Header .social a svg {width:22px; height:15px;}
+
+    #Header .copyright {color:#fff; padding-left:20px;font-size:0.8rem; margin-top:30px; opacity: 0.5;}
+/* HEADER */
+
+
+/* All */
+    .mainbox {background-color:#fff; min-height:660px; padding:50px; width:100%; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: 0px 6px 15px 0px rgba(74, 99, 231, 0.1);
+        -moz-box-shadow: 0px 5px 15px 5px rgba(94, 99, 123, 0.11); box-shadow: 0px 5px 15px 5px rgba(94, 99, 123, 0.11);}
+        .mainbox > .title {font-weight:bold; font-size:30px;}
+            .mainbox > .title:before {display:inline-block; content: "."; color:#fff; text-align:center; width:30px; height:30px; line-height:30px; background-color: var(--mainColor2); position:relative; top:0px; margin-right:20px;}
+/* All */
+
+
+/* HOME */
+#home {background-color:var(--mainColor); background: url('/img/home-bg.jpg'); color:#fff; height:660px; width:100%; padding:0 100px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px;}
+#home .home {height:660px; display: table-cell; vertical-align: middle;}
+
+#home h1 {margin-bottom:20px;}
+#home h1:after {color:var(--mainColor3); content:"."; margin-left:5px;}
+/* HOME */
+
+
+/* Buttons */
+.btn{color:#fff;cursor:pointer;font-weight:400;line-height:45px;max-width:160px;position:relative;text-decoration:none;width:100%;  -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+.btn:hover{text-decoration:none; color:#fff; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+.btn-1{font-weight:100}
+.btn-1 svg{height:55px;left:0;position:absolute;top:0;width:100%}
+.btn-1 rect{fill:none;stroke:#fff;stroke-width:2;stroke-dasharray:422,0;-webkit-transition:all .35s linear;transition:all .35s linear}
+.btn-1:hover{font-weight:900;letter-spacing:1px}
+.btn-1:hover rect{stroke-width:5;stroke-dasharray:15,310;stroke-dashoffset:48;-webkit-transition:all 1.35s cubic-bezier(0.19,1,0.22,1);transition:all 1.35s cubic-bezier(0.19,1,0.22,1)}
+.btn-2{letter-spacing:0}
+.btn-2:hover,.btn-2:active{letter-spacing:5px}
+.btn-2:after,.btn-2:before{-webkit-backface-visibility:hidden;backface-visibility:hidden;border:1px solid rgba(255,255,255,0);bottom:0;content:" ";display:block;margin:0 auto;position:relative;-webkit-transition:all 280ms ease-in-out;transition:all 280ms ease-in-out;width:0}
+.btn-2:hover:after,.btn-2:hover:before{-webkit-backface-visibility:hidden;backface-visibility:hidden;border-color:#fff;-webkit-transition:width 350ms ease-in-out;transition:width 350ms ease-in-out;width:70%}
+.btn-2:hover:before{bottom:auto;top:0;width:70%}
+.btn-3{background:#e3403a;border:1px solid var(--mainColor2);box-shadow:0 2px 0 var(--mainColor2),2px 4px 6px #e02a24;font-weight:900;letter-spacing:1px;-webkit-transition:all 150ms linear;transition:all 150ms linear}
+.btn-3:hover, .btn-3.selected{background:#e02c26;border:1px solid rgba(0,0,0,0.05);box-shadow:1px 1px 2px rgba(255,255,255,0.2);color:#ec817d;text-decoration:none;text-shadow:-1px -1px 0 #c2211c;-webkit-transition:all 250ms linear;transition:all 250ms linear}
+.btn-4{border:1px solid;overflow:hidden;position:relative}
+.btn-4 span{z-index:20}
+.btn-4:after{background:#fff;content:"";height:155px;left:-75px;opacity:.2;position:absolute;top:-50px;-webkit-transform:rotate(35deg);transform:rotate(35deg);-webkit-transition:all 550ms cubic-bezier(0.19,1,0.22,1);transition:all 550ms cubic-bezier(0.19,1,0.22,1);width:50px;z-index:-10}
+.btn-4:hover:after{left:120%;-webkit-transition:all 550ms cubic-bezier(0.19,1,0.22,1);transition:all 550ms cubic-bezier(0.19,1,0.22,1)}
+.btn-5{border:0 solid;box-shadow:inset 0 0 20px rgba(255,255,255,0);outline:1px solid;outline-color:rgba(255,255,255,0.5);outline-offset:0;text-shadow:none;-webkit-transition:all 1250ms cubic-bezier(0.19,1,0.22,1);transition:all 1250ms cubic-bezier(0.19,1,0.22,1)}
+.btn-5:hover{border:1px solid;box-shadow:inset 0 0 20px rgba(255,255,255,0.5),0 0 20px rgba(255,255,255,0.2);outline-color:rgba(255,255,255,0);outline-offset:15px;text-shadow:1px 1px 2px #427388}
+/* Buttons */
+
+/* About */
+#About .avatar {width:100%; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+#About .me-text {line-height:2rem; border-right:1px solid #f0f0f0;}
+#About .infobox {background-color:var(--mainColor); color:#fff; padding:40px; margin-top:50px; text-align:center; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px;}
+    #About .infobox svg {width:60px; height:60px; background-color: var(--mainColor2); margin:0 auto; color:#fff; display:block; padding:15px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+    #About .infobox label {display:block; font-size:2rem; font-weight:bold; margin:10px 0 0px;}
+/* About */
+
+
+/* Services */
+#Services .mainbox > .boxes {margin-top:60px;}
+#Services .mainbox > .boxes .box {text-align:center; color:#aaa; border:1px solid #ddd; padding:20px; margin-bottom:30px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+    #Services .mainbox > .boxes .box:hover {color:#fff; background-color: var(--mainColor2); border:1px solid var(--mainColor2); -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+
+    #Services .mainbox > .boxes .box svg {width:48px; height:48px; background-color: var(--mainColor2); margin:0 auto; color:#fff; display:block; padding:14px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;  -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+    #Services .mainbox > .boxes .box h2 {color: var(--mainColor2); font-size:21px; margin-top:10px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+        #Services .mainbox > .boxes .box:hover svg {background-color: #fff; margin:0 auto; color:var(--mainColor2); -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+        #Services .mainbox > .boxes .box:hover h2 {color: #fff;  -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+/* Services */
+
+
+/* Experiences */
+#Experiences .mainbox > .title > .tab {float:right; width:50%; text-align:right;}
+#Experiences .mainbox {padding-left:100px; padding-right:100px;}
+#Experiences .timeline {margin-top:40px; min-height:100px; border-left:1px solid var(--mainColor2); padding:50px 50px 50px;}
+    /* #Experiences .timeline:before {content: "\00a0"; background-color: var(--mainColor22); width:1px; height:100%; margin-right:50px;} */
+    #Experiences .timeline > .item:not(:last-child) { margin-bottom:60px;}
+    #Experiences .timeline > .item {padding-top:0px; position:relative; line-height:30px;}
+        #Experiences .timeline > .item > svg {display:block; position:absolute; left:-80px; top:22px; height:60px; width:60px; color: var(--mainColor2);
+        background-color: var(--mainColor2); color:#fff; padding:15px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+        #Experiences .timeline > .item span {font-size:0.9rem; color:#aaa;}
+        #Experiences .timeline > .item h2 {font-size:2rem; color: var(--mainColor); margin:10px 0 15px;}
+
+#Experiences .list-item {display: inline-block; margin-right: 10px;}
+#Experiences .list-enter-active, .list-leave-active {transition: all 1s;}
+#Experiences .list-enter, .list-leave-to {opacity: 0; transform: translateY(230px);}
+#Experiences .list-leave-active {transition: all 0.01s;}
+/* Experiences */
+
+/* Works */
+#Works .text {display: flex; align-items: center; justify-content: center;}
+/* Works */
+
+
+/* Contact */
+#Contact .mainbox {background:url("/img/world.png") no-repeat left center !important;}
+#Contact .subtitle {color: var(--mainColor2); font-weight:bold; font-size:21px;}
+#Contact .text a {color: var(--mainColor2); font-weight:bold;}
+#Contact input, textarea {border-radius:20px; padding:24px 30px !important; opacity:0.7;}
+    #Contact input:focus, textarea:focus {opacity:1;}
+#Contact button {border-radius:20px; max-width:200px; display:block; font-weight: 600;}
+/* Contact */
+
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 0px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: var(--mainColor2);
+}
+
+.mobileMenu {display:none;}
+
+@media only screen and (max-width: 600px) {
+    .mobileMenu {display:block;}
+    body {padding:10px 0; max-width:100%!important; width:100%!important;}
+    #Header {height:auto; padding:20px; position:relative; margin-bottom:30px;}
+    #app > .container-fluid {padding-left:0; padding-right: 0;}
+    .row {margin-left:0; margin-right:0;}
+    
+    #home {height:500px; padding:0 50px;}
+    #home .home {height:500px; text-align:center;}
+
+    
+
+    /* Header */
+    #Header .mobileMenu {text-align:center; margin-top:20px;}
+        #Header .mMenu.h {display:none; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+        #Header .mMenu.s {display:block; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; transition: all .3s ease-in-out}
+        
+    #Header .mobileMenu a {width:60px; height:60px; line-height:60px; text-align:center; display:inline-block; background-color:var(--mainColor2); color:#fff; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+        #Header .mobileMenu a:hover {color:var(--mainColor2); background-color:#fff;}
+        #Header .mobileMenu a svg {width:36px; height:36px; position: relative; top:6px;}
+
+    #Header .social {margin-top:50px; padding-left:0px;}
+    #Header .social a:not(:first-child) {margin-left:7px;}
+    /* Header */
+    
+    /* All */
+    .mainbox {min-height:660px; padding:25px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: 0px 6px 15px 0px rgba(74, 99, 231, 0.1);
+        -moz-box-shadow: 0px 5px 15px 5px rgba(94, 99, 123, 0.11); box-shadow: 0px 5px 15px 5px rgba(94, 99, 123, 0.11);}
+        .mainbox > .title {font-weight:bold; font-size:30px; margin-top: 10px!important; text-align:center;}
+            .mainbox > .title:before {display:inline-block; content: "."; color:#fff; text-align:center; width:30px; height:30px; line-height:30px; background-color: var(--mainColor2); position:relative; top:0px; margin-right:20px;}
+    /* All */
+
+    /* About */
+    #About .me-text {border-right:0px solid #f0f0f0; margin-top:30px; text-align:center; padding-right:0!important;}
+    #About .infobox {background-color:var(--mainColor); color:#fff; padding:40px 0 0 0; margin-top:50px; text-align:center; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px;}
+        #About .infobox .col-md-3 {margin-bottom:40px;}
+    /* About */
+
+    
+    /* Services */
+    #Services .mainbox > .boxes {margin-top:0px;}
+        #Services .mainbox > .boxes .box {padding:20px; margin-bottom:0px; margin-top:25px;}
+    /* Services */
+
+
+
+    /* Experiences */
+    #Experiences .mainbox {padding-left:10px; padding-right:10px;}
+        #Experiences .mainbox > .title {width:100%!important; display:block;}
+            #Experiences .mainbox > .title > .tab {float:none; width:100%; text-align:center; display:block; clear:both; margin-top:20px;}
+                #Experiences .mainbox > .title > .tab .btn {width:auto;}
+                #Experiences .timeline {padding:20px 20px 50px;}
+                #Experiences .timeline > .item:not(:last-child) { margin-bottom:30px;}
+                    #Experiences .timeline > .item > svg {display:none;}
+                #Experiences .timeline > .item h2 {font-size:1.6rem; padding-left:0px;}
+                #Experiences .timeline > .item span {display:block; }
+
+    /* Experiences */
+
+    /* Works */
+    #Works img {max-width:100%; margin-bottom:40px;}
+    #Works .mainbox {min-height:400px;}
+    #Works .mainbox .row {margin-top: 10px!important;}
+    /* Works */
+
+    /* Contact */
+    #Contact .mainbox {text-align:center!important;}
+/* Contact */
+
+}

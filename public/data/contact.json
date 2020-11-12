@@ -1,0 +1,22 @@
+{
+	"en": {
+		"title": "Get In Touch",
+		"subTitle": "Let's talk about everything!",
+		"text": "Don't like forms? Send me an <a href='mailto:me@mustafacagri.com'>email</a>.",
+		"success": "Your message was sent succesfully! I will response it soon...",
+		"loading": "Please wait while message is sending...",
+		"waitMinutes": "You should wait [reSendTime] minutes to send an email again.",
+		"pleaseControl": "Plase check the all form inputs.",
+		"formTexts": {"name":"Name","email":"Email","subject":"Subject","message":"Message", "send": "Send Message"}
+	},
+	"tr": {
+		"title": "İletişime Geçin",
+		"subTitle": "Haydi bir şeyler konuşalım!",
+		"text": "Formları sevmiyor musunuz?<br/ >Bana <a href='mailto:me@mustafacagri.com'>e-posta</a> da gönderebilirsiniz.",
+		"success": "Mesajınız başarıyla gönderildi! En kısa sürede geri dönüş yapacağım...",
+		"loading": "Lütfen mesaj gönderilirken bekleyin...",
+		"waitMinutes": "Tekrar bir e-posta göndermek için [reSendTime] dakika beklemelisiniz.",
+		"pleaseControl": "Lütfen form alanındaki tüm alanları kontrol edin.",
+		"formTexts": {"name":"İsim","email":"E-Posta","subject":"Konu","message":"Mesajınız", "send": "Gönder"}
+	}
+}

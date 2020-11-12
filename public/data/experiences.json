@@ -1,0 +1,30 @@
+{
+	"en": {
+		"title": "Experiences",
+		"tabs": {"work": "Work", "education": "Education"},
+		"work": [
+			{"id": 8, "title":"Senior Frontend Developer", "time":"2019 - 2020 (Lorem Ipsum)", "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+			{"id": 7, "title":"Full Stack Web Developer", "time":"2015 - 2019 (Many desktop)", "content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."},
+			{"id": 6, "title":"Full Stack Web Developer", "time":"2013 - 2016 (Where can I get some)", "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."}
+		],
+		"education": [
+			{"id": 3, "title":"İstanbul University", "time":"2016 (Master of Business Administration / Graduate Degree)", "content": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."},
+			{"id": 2, "title":"Boğaziçi University", "time":"2011 (Computer Engineering)", "content": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."},
+			{"id": 1, "title":"Sabancı University", "time":"2006 - 2011 (Computer Science & Engineering)", "content": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."}
+		]
+	},
+	"tr": {
+		"title": "Tecrübelerim",
+		"tabs": {"work": "İş Hayatı", "education": "Eğitim"},
+		"work": [
+			{"id": 8, "title":"TR Senior Frontend Developer", "time":"2019 - 2020 (Lorem Ipsum)", "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+			{"id": 7, "title":"Full Stack Web Developer TR", "time":"2015 - 2019 (Many desktop)", "content": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."},
+			{"id": 6, "title":"Full Stack TR Web Developer", "time":"2013 - 2016 (Where can I get some)", "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."}
+		],
+		"education": [
+			{"id": 3, "title":"İstanbul Üniversitesi", "time":"2016 (Master of Business Administration / Graduate Degree)", "content": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."},
+			{"id": 2, "title":"Boğaziçi Üniversitesi", "time":"2011 (Computer Engineering)", "content": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."},
+			{"id": 1, "title":"Sabancı Üniversitesi", "time":"2006 - 2011 (Computer Science & Engineering)", "content": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."}
+		]
+	}
+}

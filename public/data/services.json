@@ -1,0 +1,24 @@
+{
+	"en": {
+		"title": "Services",
+		"boxes": [
+			{"icon": "code", "title":"Frontend Development", "content": "Javascript, jQuery, Vue.js, PSD to CSS / HTML..."},
+			{"icon": "code", "title":"Backend Development", "content": "ASP.Net MVC Core, RESTful APIs, Node.js, Classic ASP, PHP"},
+			{"icon": "code", "title":"Development", "content": "Do you have a need about software development? Let's talk!"},
+			{"icon": "pencil-ruler", "title":"UI / UX Design", "content": "I can offer creative solutions for web interface design."},
+			{"icon": "user-tie", "title":"Consulting", "content": "Do you need unique ideas about internet technologies? Growth Hacking!"},
+			{"icon": "rocket", "title":"SEO", "content": "How can users find a website that is not indexed in search engines?"}
+		]
+	},
+	"tr": {
+		"title": "Hizmetler",
+		"boxes": [
+			{"icon": "code", "title":"Frontend Development", "content": "Javascript, jQuery, Vue.js, PSD to CSS / HTML..."},
+			{"icon": "code", "title":"Backend Development", "content": "ASP.Net MVC Core, RESTful APIs, Node.js, Classic ASP, PHP"},
+			{"icon": "code", "title":"Yazılım Geliştirme", "content": "Yazılım geliştirme konusunda bir ihtiyacınız mı var? Haydi konuşalım!"},
+			{"icon": "pencil-ruler", "title":"UI / UX Design", "content": "Web arayüz tasarımı için kreatif ve modern çözümler sunabilirim. Tasarımları koda dökebilirim."},
+			{"icon": "user-tie", "title":"Danışmanlık", "content": "İnternet teknolojileri hakkında markanızı daha ileriye taşıyabilecek fikirlere ihtiyacınız var mı?"},
+			{"icon": "rocket", "title":"SEO", "content": "Arama motorlarında indexlenmeyen bir web sitesini kullanıcılar nasıl bulabilir ki?"}
+		]
+	}
+}
