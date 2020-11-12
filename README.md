@@ -1,4 +1,8 @@
-# resume
+# Vue Js Counter
+![altcenter](https://www.mustafacagri.com/wp-content/uploads/2020/11/vue-js-resume2.gif "Vue Js Resume")
+
+## Demo
+https://vue-js-resume.web.app/
 
 ## Project setup
 ```
